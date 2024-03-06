@@ -205,7 +205,7 @@ def add():
     # return render_template('home.html',names=names,rolls=rolls,times=times,l=l,totalreg=totalreg(),datetoday2=datetoday2)
 
 #### Our main function which runs the Flask App
-app.run(debug=True,port=1000)
+app.run(debug=False,port='0.0.0.0')
 if __name__ == '__main__':
     pass
 #### This function will run when we add a new user
